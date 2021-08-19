@@ -4,3 +4,7 @@ World.json is the polygons for the countries.
 The map features 2 layers:
   A colorful polygon describing the population in every country by 4 colors: red orange yellow and green.
   Positions for all the volcanos, their name and the height of the volcano. 
+To run the python code for the map:
+pip install folium
+pip install pandas
+pip install openpyxl
