@@ -1,0 +1,4 @@
+This app sends email every day to a user with news about his interests
+
+Using news API:
+    8faa0de902864f4eaf19b6a2034bff03
