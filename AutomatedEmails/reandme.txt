@@ -1,0 +1,5 @@
+Add your Gmail and password in the fields and add people to the excel file (as for this version only one interest is allowed, as I didn't loop the interests).
+To access your Gmail you will need to lower the security of your Gmail. security-> allow low security applications.
+
+This program will send all the articles that have the interest word in the title( used https://newsapi.org/). 
+To have your own API key sign up on the site I provided and change the API key. 
