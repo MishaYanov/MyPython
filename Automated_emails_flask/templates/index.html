@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+      <section class="main">
+        <div class="hero">
+          <div class="content">
+            <h1 class="main_h">Lets Find Your Interests!</h1>
+            <p>
+              In this website example I will try to help you to find your
+              interests, fill the form below to get all the news regarding your
+              interests. at this V1 of the project you can fill only 1 interest
+              in any from, so think carefully!
+            </p>
+          </div>
+          <div class="image">
+            <img class="img1" src="..\static\images\5122385.jpg" alt="" />
+          </div>
+        </div>
+        <div class="form-space">
+            <h3>Input Your Information here!</h3>
+            <p class="small">Don't worry we dont sell it to the goverment</p>
+          <form class="interests" action="" method="POST">
+            <div class="">
+              <input type="text" name="name" class="name" placeholder="Name" />
+            </div>
+            <div class="">
+              <input type="email" name="email" class="email" placeholder="Email" />
+            </div>
+            <div class="">
+              <input type="text" name="interest" class="interest" placeholder="Interest" />
+            </div>
+            <div class="">
+              <label for="from">from</label>
+              <input type="date" class="from" name="from" id="from"  disabled/>
+              <label for="from">to</label>
+              <input type="date" class="to" name="to" id="to"  disabled/>
+            </div>
+            <div class="btn">
+              <input class="btn--send" type="submit" value="Send to recive email!" />
+            </div>
+          </form>
+        </div>
+      </section>
+      {% endblock %}

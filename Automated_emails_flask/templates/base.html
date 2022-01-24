@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Emails</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='style/style.css') }}"
+    />
+</head>
+<body>
+    <div class="container">
+        <nav>
+          <div class="logo">
+            <p>Logo</p>
+          </div>
+          <ul class="links">
+            <li class="link"><a href="{{url_for('index')}}">Home</a></li>
+            <li class="link"><a href="{{url_for('about')}}">About</a></li>
+            <li class="link"><a href="{{url_for('contact')}}">Contact me</a></li>
+          </ul>
+        </nav>
+    
+    {% block content %}
+
+
+    {% endblock content %}
+    <footer class="f-grid">
+        <ul class="info">
+          <li><a href="">LinkedIn</a></li>
+          <li><a href="">Github</a></li>
+          <li><a href="">Empty link</a></li>
+          <li><a href="">Empty link</a></li>
+        </ul>
+        <p class="end">craeted with ❤️ by Misha</p>
+      </footer>
+    </div>
+</body>
+</html>
