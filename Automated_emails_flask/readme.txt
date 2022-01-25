@@ -8,3 +8,5 @@ To set up the automated emails follow the steps in the automated emails folder:
   The project is now a part of simple flask app that sends the form info into the project above (it doesnt use pandas and excel file for reading information anymore).
   
   Next step is to upload to heroku.
+
+After creating venv and installing the requirements type 'flask run' in the terminal while in the main folder. 
